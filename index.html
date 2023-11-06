@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,12 +33,25 @@
 </div>
 </section>
 <!-- section end -->
+<!-- main start -->
+<main>
+    <div class="owl-carusel">
+        <img src="img/bg0.png" alt="">
+    </div>
+</main>
+<!-- main end -->
 
 <!-- foter start -->
 <footer>
     <p>copyright_@_2023</p>
 </footer>
 <!-- foter end -->
-    
+
+    <script src="owl/jquery.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+      });</script>
 </body>
 </html>
