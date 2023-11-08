@@ -11,7 +11,7 @@
 <body>
 <!-- header start -->
 <header>
-    <h1>Nuriddin Pizza</h1>
+    <h1>Nuriddin Burger</h1>
 </header>
 <!-- header end -->
 
@@ -19,24 +19,26 @@
 <section>
     <div class="row">
 <div class="col">
-    <img src="img/pizza-png-27.png" alt="">
+    <img src="img/v01h01.jpg" alt="">
 </div>
 <div class="col">
-    <img src="img/pizza-png-15.png" alt="">
+    <img src="img/png-transparent-delicious-burgers-hamburger-fast-food-delicious.png" alt="">
 </div>
 <div class="col">
-    <img src="img/pizza_PNG7105.png" alt="">
+    <img src="img/png-transparent-delicious-burgers-hamburger-fast-food-delicious.png" alt="">
 </div>
-<div class="col">
-    <img src="img/pizza_PNG7136.png" alt="">
-</div>
+
 </div>
 </section>
 <!-- section end -->
 <!-- main start -->
 <main>
-    <div class="owl-carusel">
-        <img src="img/bg0.png" alt="">
+    <div class="owl-carousel">
+        <img src="img/190416-chicken-burger-082-1556204252.jpg" alt="">
+        <img src="img/55_TeamEdition_Canada_Halloumi-Burger.jpg" alt="">
+        <img src="img/Beetroot-Burger.jpg" alt="">
+        <img src="img/k_Photo_Recipes_2021-04-how-to-chicken-burgers_2021-04-19_ATK-52011.jfif" alt="">
+        <img src="img/featured-stovetop-burgers-recipe-480x270.webp" alt="">
     </div>
 </main>
 <!-- main end -->
@@ -51,7 +53,14 @@
     <script src="owl/owl.carousel.min.js"></script>
     <script>
     $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
+        $(".owl-carousel").owlCarousel({
+            items: 4,
+                margin: 10,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+            
+        });
       });</script>
 </body>
 </html>
